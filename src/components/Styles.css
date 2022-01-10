@@ -1,0 +1,268 @@
+.cards{
+    display: flex;
+    box-shadow: 20px 20px 20px rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45%;
+    background-color: #0d1424;
+    padding:1%;
+    margin-top: 30%;  
+}
+.cardshow{
+    display: flex;
+    box-shadow: 20px 20px 20px rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45%;
+    background-color: rgb(35, 211, 211);
+    padding:1%;
+    margin-top: 30%;
+}
+.cardlist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -30%;
+}
+.cardli{
+    margin-top: 20%;
+    width: 20%;
+    justify-content: space-evenly;
+}
+.list{
+    list-style:none;
+    margin-top: 5%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.car{
+    height:1%;
+    background-color: rgb(35, 211, 211);
+    width: 60%;
+    margin: auto; 
+}
+.has3{
+    margin-top: 13%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+li{
+    font-size: 22px;
+    margin: 2%;
+    text-align: center;
+}
+.total{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.appcard{
+    display: flex;
+    width: 30%;
+    box-shadow: 20px 20px 20px rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: space-evenly;
+    float: left;
+    background-color: #0d1424;
+    margin-top: 5%; 
+  
+    margin-left: 13.25%;
+}
+.appdiv{
+    margin-top: 5%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px; 
+   
+}
+
+.appdiv2{
+    height:5px;
+    background-color: rgb(35, 211, 211);
+    margin: auto; 
+    
+}
+.appdiv4{
+  
+    justify-content: space-evenly;
+    
+}
+.applist{
+    list-style:none; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imgapplist{
+    align-items: center;
+    width: 35%;
+}
+.cardlisthr{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 375%;
+    color: #1e2735;
+}
+.cardlistimg{
+    width: 60%;
+    text-align: center;
+}
+.cardlisth3{
+    color:white;
+     
+}
+@media screen and  (max-width: 700px){
+    .cards{
+        height: 50%;
+        width: 160%;
+        display: flex;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0);
+        flex-direction: row;
+        
+        background-color: #0d1424;
+      
+        margin-top: 40%;  
+       
+    }
+    .cardshow{
+        display: flex;
+        box-shadow:10px 10px 10px rgb(0, 0, 0);
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50%;
+        width: 160%;
+        background-color: rgb(35, 211, 211);
+  
+        margin-top: 40%;
+        
+    }
+    .cardlistimg{
+        margin-top: 10%;
+        width: 80%;
+    }
+    .cardlist{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: -30%;
+    }
+    .cardlisthr{
+        text-align: center;
+        margin-top: 35%;
+        font-size: 20px;
+        color: #1e2735;
+    }
+    .cardlisth3{
+        color:white;
+        font-size: 15px;
+        margin: 1;
+    }
+    .list li{
+        font-size: 10px;
+        
+    }
+    .cardli{
+        margin-top: 20%;
+        width: 20%;
+        justify-content: space-evenly;
+    }
+    .list{
+        list-style:none;
+        margin-top: 0%;
+        padding: 0%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .car{
+        height:1%;
+        background-color: rgb(35, 211, 211);
+        width: 100%;
+        
+    }
+    .has3{
+        margin-top: 0%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 15px;
+    }
+    li{
+        font-size: 22px;
+        margin: 2%;
+        text-align: center;
+    }
+    .total{
+        text-align: center;
+        font-size: 22px;
+        margin-top: 10%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .appcard{
+        display: flex;
+        width:30%;
+        height: 100%;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0);
+        flex-direction: row;
+        justify-content: space-between;
+        float: left;
+        background-color: #0d1424;
+        margin-top: 1%; 
+        margin-right: 10%;
+        margin-left:10%;
+    }
+    .appdiv{
+        margin-top: 5%;
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+        height: 30%;
+       
+    }
+    
+    
+    .appdiv2{
+        height:2px;
+        background-color: rgb(35, 211, 211);
+        margin: auto; 
+        margin-top: 40%;
+        
+        
+    }
+    
+    .appdiv4{
+        width: 100%;
+        margin-top: 10%;
+        
+        height: 350px;
+        
+        
+    }
+    .applist{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        list-style:none; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+       
+    }
+    .applist li{
+        width: 100%;
+        height: auto;
+        margin-right: 0%;
+        margin-right: 00%;
+        font-size: 12px;
+    }
+    
+    .imgapplist{
+        margin-top: 2%;
+        
+        width: 80%;
+        height: 100%;
+    }
+    .applisthr{
+        text-align: center;
+        margin-top: 10%;
+        font-size: 15px;
+    }
+   
+}
+

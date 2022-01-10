@@ -1,0 +1,620 @@
+.home{
+    min-height: 257vmax;
+    background: linear-gradient(to top, #30475E,#121212);
+    /* background-color: rgb(55, 74, 77); */
+    background-color: rgb(121, 153, 158);
+    color: white;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+
+}
+.abo{
+    min-height: 60vmax;
+    background: linear-gradient(to top, #30475E,#0d1424);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+  
+    justify-items: center;
+    
+}
+.cont{
+    min-height: 55vmax;
+    background: linear-gradient(to top, #30475E,#0d1424);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+
+    justify-items: center;
+    
+}
+.appl{
+    min-height: 135vmax;
+    background: linear-gradient(to top, #30475E,#0d1424);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+
+    justify-items: center;
+   
+}
+.Pro{
+    min-height: 80vmax;
+    background: linear-gradient(to top, #30475E,#0d1424);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+
+    justify-items: center;
+}
+
+.hom{
+    justify-content: center;   
+    justify-items: center;
+    align-items: center;
+       
+}
+.card-container{
+    margin-top: 10%;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+
+}
+
+.Error{
+    display: flex;
+    min-height: 60vmax; 
+    background-color: rgb(20, 45, 49);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    justify-items: center;
+}
+.typical{
+    margin-top: 2%;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+}
+.slider{
+    overflow: hidden;
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    
+}
+
+.slider figure img{
+    margin-top:0.5%;
+    width: 20%;
+    height: 600px;
+    border: 1%;
+    border-style:solid;
+    border-color: #ffffff
+    /* linear-gradient(to top, #56206b,#0d1424); */
+   
+}
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    
+
+}
+.hr{  
+    background-color: #ffffff;
+}
+.bas1{
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 80px;
+    color: #fefeff;
+
+}
+.hak1{
+    font-family: 'Permanent Marker', cursive;
+    margin-top:10%;
+    text-align: center;
+    font-size: 80px;
+    color: #fefeff;
+}
+.con1{
+    font-family: 'Permanent Marker', cursive;
+    margin-top:14%;
+    text-align: center;
+    font-size: 80px;
+    color: #fefeff;
+}
+.basstyle{
+   
+    height:10px;
+    background-color: white;
+    width: 70%;
+    margin-top: 2%; 
+}
+.shorthak{    
+        font-family: 'teko', cursive;
+        font-size: 25px;          
+}
+.font{
+    margin-top: 5%;
+    margin-left: 17%;
+    margin-right: 50%;  
+    text-align: center;
+    font-size: 25px;  
+    
+}
+.body {
+    position: relative;
+    font-size: 15px;
+    color: rgb(8, 239, 247);
+    text-align: center;
+    margin-left: 50%;
+    overflow: hidden;
+    margin-top: -40%;
+  }
+  
+  #flyin {
+    font-family:  'Permanent Marker', Fredoka One;
+    font-size: 60px;
+  }
+  
+  
+  #flyin div {
+    opacity: 0;
+    left: 5%;
+    animation: switch 14s linear infinite;
+  }
+
+  #flyin div:nth-child(2) { animation-delay: 2s}
+  #flyin div:nth-child(3) { animation-delay: 4s}
+  #flyin div:nth-child(4) { animation-delay: 6s}
+  #flyin div:nth-child(5) { animation-delay: 8s}
+  #flyin div:nth-child(6) { animation-delay: 10s}
+  #flyin div:nth-child(7) { animation-delay: 12s}
+ 
+  
+  @keyframes switch {
+      0% { opacity: 0;filter: blur(20px); transform:scale(12)}
+      3% { opacity: 1;filter: blur(0); transform:scale(1)}
+      10% { opacity: 1;filter: blur(0); transform:scale(.9)}
+      13% { opacity: 0;filter: blur(10px); transform:scale(.1)}
+      80% { opacity: 0}
+      100% { opacity: 0}
+  }
+.shortstyle{
+    justify-content: space-between;
+    margin-top: 5%;
+    
+}
+.formh3{
+    font-family: monospace;
+    text-align: center;
+}
+.formtab{
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 35px;
+    font-family: monospace;
+    
+}
+.but{
+    
+    font-size: 30px;
+    margin-top: 10%;
+    float: left;
+}
+.login{
+    min-height: 60vmax;
+    background: linear-gradient(to top, #30475E,#0d1424);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.shortlogin{
+   
+    margin-top: 1%;
+}
+.alerts{
+    background-color: rgba(255, 0, 0, 0.548) ;
+    color: rgb(255, 255, 255);
+}
+.shorthak2{
+    font-family: 'teko', cursive;
+    font-size: 25px; 
+}
+.font1{
+    margin-top: 5%;
+    margin-left: 17%;
+    margin-right: 50%;  
+    text-align: center;
+    font-size: 25px;  
+}
+.abo hr{
+    position: absolute;
+    border-left: 10px double rgb(35, 211, 211);
+    height: 78%;
+    margin-left: 55%;
+}
+.formtab1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    margin-left: 33%;
+    font-size: 30px;
+    font-family: monospace;
+    
+}
+.formstyle{
+    margin-top: 2%;
+}
+.loginhr2{
+    font-size: 40px;
+    margin-left:20%;
+    font-family: monospace;
+    color: rgb(94, 233, 14);
+}
+.protable{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+}
+.appl hr{
+        margin-top: 7%;
+        position: absolute;
+        border-left: 10px double rgb(35, 211, 211);
+        height: 210%;
+        margin-left: 50%;
+}
+.mobiltext{
+    width: 200%;
+    height: 200px;
+}
+
+@media screen and  (max-width: 700px){
+    .home{
+        min-height: 150vmax;
+        background: linear-gradient(to top, #30475E,#121212);
+        width: 100%;
+        background-color: rgb(121, 153, 158);
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     
+    }
+    .abo{
+        min-height: 110vmax;
+        background: linear-gradient(to top, #30475E,#0d1424);
+        color: white;
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: center;
+        justify-items: center;      
+    }
+    .cont{
+        min-height:105vmax;
+        width: 100%;
+        background: linear-gradient(to top, #30475E,#0d1424);
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: center;  
+        justify-items: center;     
+    }
+    .appl{
+        min-height:260vmax;
+        width: 100%;
+        background: linear-gradient(to top, #30475E,#0d1424);
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: center; 
+        justify-items: center;      
+    }
+    .Pro{
+        min-height: 186vmax;
+        width: 100%;
+        background: linear-gradient(to top, #30475E,#0d1424);
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: center;  
+        justify-items: center;
+    }    
+    .hom{
+        justify-content: center;   
+        justify-items: center;
+        align-items: center;          
+    }
+    .card-container{
+       
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        margin-right: 10%;   
+    }   
+    .Error{
+        display: flex;
+        min-height: 60vmax; 
+        background-color: rgb(20, 45, 49);
+        color: rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: center;
+        justify-items: center;
+    }
+    .typical{
+        margin-top: 8%;
+        box-sizing: border-box;
+        font-family: monospace;
+        font-size: 25px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .slider{
+        overflow: hidden;
+    }
+    .slider figure{
+        
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 20s slider infinite;       
+    }    
+    .slider figure img{
+        margin-top:3%;
+        width: 20%;
+        height: 250px;
+        border: 1%;
+        border-style:solid;
+        border-color: #ffffff
+        /* linear-gradient(to top, #56206b,#0d1424); */      
+    }
+    @keyframes slider {
+        0%{
+            left: 0;
+        }
+        20%{
+            left:0;
+        }
+        25%{
+            left:-100%
+        }
+        45%{
+            left: -100%;
+        }
+        50%{
+            left: -200%;
+        }
+        70%{
+            left: -200%;
+        }
+        75%{
+            left: -300%;
+        }
+        95%{
+            left: -300%;
+        }
+        
+    
+    }
+    .hr{  
+        background-color: #ffffff;
+    }
+    .bas1{
+        font-family: 'Permanent Marker', cursive;
+        margin-top: 10%;
+        text-align: center;
+        font-size: 22px;
+        color: #fefeff;
+    
+    }
+    .hak1{
+        font-family: 'Permanent Marker', cursive;
+        margin-top:25%;
+        text-align: center;
+        font-size: 22px;;
+        color: #fefeff;
+    }
+    .con1{
+        font-family: 'Permanent Marker', cursive;
+        margin-top:35%;
+        text-align: center;
+        font-size: 22px;
+        color: #fefeff;
+    }
+    .basstyle{
+       
+        height:5px;
+        background-color: white;
+        width: 70%;
+        margin-top: 2%; 
+    }
+    .shorthak{    
+            margin-top: 5%;
+            font-family: 'teko', cursive;
+            font-size: 25px;          
+    }
+    
+    .body {
+        position: relative;
+        font-size: 25px;
+        color: rgb(8, 239, 247);
+        text-align: center;
+        margin-left: 60%;
+        overflow: hidden;
+        margin-top: -95%;
+      }    
+      .font{
+        margin-top: 5%;
+        margin-left: 0%;
+        margin-right: 40%;  
+        text-align: center;
+        font-size: 10px;       
+    }
+      
+      #flyin {
+        font-family:  'Permanent Marker', Fredoka One;
+        font-size: 25px;
+      }
+      
+      
+      #flyin div {
+        opacity: 0;
+        left: 5%;
+        animation: switch 14s linear infinite;
+      }
+    
+      #flyin div:nth-child(2) { animation-delay: 2s}
+      #flyin div:nth-child(3) { animation-delay: 4s}
+      #flyin div:nth-child(4) { animation-delay: 6s}
+      #flyin div:nth-child(5) { animation-delay: 8s}
+      #flyin div:nth-child(6) { animation-delay: 10s}
+      #flyin div:nth-child(7) { animation-delay: 12s}
+     
+      
+      @keyframes switch {
+          0% { opacity: 0;filter: blur(20px); transform:scale(12)}
+          3% { opacity: 1;filter: blur(0); transform:scale(1)}
+          10% { opacity: 1;filter: blur(0); transform:scale(.9)}
+          13% { opacity: 0;filter: blur(10px); transform:scale(.1)}
+          80% { opacity: 0}
+          100% { opacity: 0}
+      }
+    .shortstyle{
+        justify-content: space-between;
+        margin-top: 5%;
+        
+    }
+    .formh3{
+        
+        font-size: 12px;
+        font-family: monospace;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .formtab{
+        
+        justify-content: center;
+        align-items: center;
+        margin-top: 12%;
+        margin-left: 5%;
+        font-size: 15px;
+        font-family: monospace;
+        
+    }
+    .but{
+        
+        font-size: 15px;
+        margin-top: 10%;
+        
+    }
+    .login{
+        min-height: 120vmax;
+        width: 100%;
+        background: linear-gradient(to top, #30475E,#0d1424);
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: center;
+        justify-items: center;
+        
+    }
+    .alert-heading{
+     font-size: 15px;   
+    }
+    .shortlogin{
+       font-size: 12px;
+        margin-top: 5%;
+    }
+    .alerts{
+        background-color: rgba(255, 0, 0, 0.548) ;
+        color: rgb(255, 255, 255);
+    }
+   
+    .shorthak2{
+        font-family: 'teko', cursive;
+        font-size: 25px; 
+    }
+    .font1{
+        margin-top: 5%;
+        margin-left: 0%;
+        margin-right: 40%;  
+        text-align: center;
+        font-size: 12px;  
+        
+    }
+    .abo hr{
+        position: absolute;
+        border-left: 7px double rgb(35, 211, 211);
+        height: 75%;
+        margin-left: 62%;
+    }
+    .formtab1{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 15px;
+        font-family: monospace;
+        
+    }
+    .formstyle{
+        margin-top: 2%;
+    }
+    .loginhr2{
+        
+        font-size: 20px;
+        margin-left:5%;
+        font-family: monospace;
+        color: rgb(94, 233, 14);
+    }
+    .protable{
+        margin-top: 7%;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 9px;
+    }
+    .appl hr{
+            margin-top: 7%;
+            position: absolute;
+            border-left: 5px double rgb(35, 211, 211);
+            height: 231%;
+            margin-left: 50%;
+    }
+    .mobiltext{
+        width: 100%;
+        height: 100px;
+    }
+   
+}
