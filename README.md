@@ -1,3 +1,4 @@
+## What the app looks like
 ![s1](https://user-images.githubusercontent.com/71210936/151536687-5eb951c2-a9b8-44c5-b10a-36181b4abd88.JPG)
 ![s2](https://user-images.githubusercontent.com/71210936/151536754-b383187f-84a9-42f8-9fcb-084a3de68b44.JPG)
 ![s3](https://user-images.githubusercontent.com/71210936/151536766-384da5ba-cd58-4d97-b93d-2f2b7d5e3719.JPG)
